@@ -1,0 +1,33 @@
+# PGA Tour Golf Data Project
+
+<br>
+
+# Overview
+As a golf enthusiast, the desire to see historical golf tournament results at my fingertips was essential for answering questions that not even ChatGPT can generate for me.  I wanted to take a deeper dive on how weather impacts tournament results, which courses are difficult, player details, and much more.  
+
+This project allowed me to practice key data analytical skills to scrape raw data, clean, and finally build a useful dashboard!
+
+<br>
+
+# Goals of Project
+1. Compile golf tournament historical records in one location to answer questions like:
+    * Who has won the most in the past 20+ years per starts 
+    * What courses proved to be the most difficult
+    * How does weather potentially impact scores for a given week based on wind and rain.  
+        * How does it impact scores if it rains before the tournament but not afterwards? 
+        * Are there courses where we can see the differences between years it rained versus not?
+
+<br>
+
+# Challenges
+1. Golf data API was an expensive option for project and had incomplete data for tournament and course details
+2. Scraping ESPN was difficult due to the tournament ID's changing season by season after 2018.  Manual inspection was required.
+3. Missing data upon scraping for certain tournaments and elements
+
+<br>
+
+# Packages
+1. Python 3.7
+2. Pandas
+3. BeautifulSoup
+4. Selenium
