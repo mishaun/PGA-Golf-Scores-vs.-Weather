@@ -20,15 +20,26 @@ This project allowed me to practice key data analytical skills to scrape raw dat
 <br>
 
 # Challenges
-1. Golf data API was an expensive option for project and had incomplete data for tournament and course details
-2. Scraping ESPN was difficult due to the tournament ID's changing season by season after 2018.  Manual inspection was required.
-3. Missing data upon scraping for certain tournaments and elements
+1. Golf data API was an expensive option for project and had incomplete data for tournament and course details.
+2. Scraping ESPN was difficult due to the tournament ID's changing season by season after 2018.  Manual inspection was required to mark tournament ID ranges.
+3. Missing data upon scraping for certain tournaments and elements.
+4. Weather data required Selenium Web Crawler and proper packages for ARM architecture to be performant. 
+5. Handling exceptions for web crawlers for errors like page timeouts, element interception, stale elements, etc.
+6. Preparing weather data so best information is used by considering things like time of tournament play weather versus weather outside tournament time
 
 <br>
 
 # Packages
-* Had to create environment for ARM64 architecture for Selenium to be performant
+* Had to create virtual environment for ARM64 architecture for Selenium to be performant
 1. Python 3.7
 2. Pandas
 3. BeautifulSoup
 4. Selenium
+
+
+# Key Troubleshooting Articles
+1. How to create env for ARM architecture: 
+    https://stackoverflow.com/questions/65415996/how-to-specify-the-architecture-or-platform-for-a-new-conda-environment-apple\
+2. Root cause for slow Selenium
+    https://stackoverflow.com/questions/76957026/chromedriver-starts-chrome-as-x86-64-translated-on-m1-very-slow-performance
+    
