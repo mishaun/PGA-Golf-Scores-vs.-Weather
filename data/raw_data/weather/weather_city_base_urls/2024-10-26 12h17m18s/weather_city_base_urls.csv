@@ -1,0 +1,414 @@
+City,base_url,is_golf_club
+" Kapalua, HI",https://www.wunderground.com/history/daily/RJOA/date/2024-10-26,False
+" Tucson, AZ",https://www.wunderground.com/history/daily/KTUS/date/2024-10-26,False
+" Honolulu, HI",https://www.wunderground.com/history/daily/PHNL/date/2024-10-26,False
+" Scottsdale, AZ",https://www.wunderground.com/history/daily/KPHX/date/2024-10-26,False
+" Pacific Palisades, CA",https://www.wunderground.com/history/daily/KLAX/date/2024-10-26,False
+" Doral, FL",https://www.wunderground.com/history/daily/KMIA/date/2024-10-26,False
+" Orlando, FL",https://www.wunderground.com/history/daily/KMCO/date/2024-10-26,False
+" Ponte Vedra Beach, FL",https://www.wunderground.com/history/daily/KSGJ/date/2024-10-26,False
+" Duluth, GA",https://www.wunderground.com/history/daily/KATL/date/2024-10-26,False
+" Augusta, GA",https://www.wunderground.com/history/daily/KAGS/date/2024-10-26,False
+" Hilton Head Island, SC",https://www.wunderground.com/history/daily/KHXD/date/2024-10-26,False
+" Greensboro, NC",https://www.wunderground.com/history/daily/KGSO/date/2024-10-26,False
+" New Orleans, LA",https://www.wunderground.com/history/daily/KMSY/date/2024-10-26,False
+" Fort Worth, TX",https://www.wunderground.com/history/daily/KFTW/date/2024-10-26,False
+" Potomac, MD",https://www.wunderground.com/history/daily/KIAD/date/2024-10-26,False
+" Dublin, OH",https://www.wunderground.com/history/daily/KCMH/date/2024-10-26,False
+" Memphis, TN",https://www.wunderground.com/history/daily/KMEM/date/2024-10-26,False
+" Harrison, NY",https://www.wunderground.com/history/daily/KHPN/date/2024-10-26,False
+" Cromwell, CT",https://www.wunderground.com/history/daily/KBDL/date/2024-10-26,False
+" Lemont, IL",https://www.wunderground.com/history/daily/KMDW/date/2024-10-26,False
+" Milwaukee, WI",https://www.wunderground.com/history/daily/KMKE/date/2024-10-26,False
+" Endicott, NY",https://www.wunderground.com/history/daily/KBGM/date/2024-10-26,False
+" Silvis, IL",https://www.wunderground.com/history/daily/KMLI/date/2024-10-26,False
+" Castle Rock, CO",https://www.wunderground.com/history/daily/KDEN/date/2024-10-26,False
+" Grand Blanc, MI",https://www.wunderground.com/history/daily/KFNT/date/2024-10-26,False
+" Akron, OH",https://www.wunderground.com/history/daily/KCAK/date/2024-10-26,False
+" Reno, NV",https://www.wunderground.com/history/daily/KRNO/date/2024-10-26,False
+" Montreal, PQ",https://www.wunderground.com/history/daily/CYUL/date/2024-10-26,False
+" Palm Harbor, FL",https://www.wunderground.com/history/daily/KPIE/date/2024-10-26,False
+" San Antonio, TX",https://www.wunderground.com/history/daily/KSAT/date/2024-10-26,False
+" Madison, MS",https://www.wunderground.com/history/daily/KJAN/date/2024-10-26,False
+" Atlanta, GA",https://www.wunderground.com/history/daily/KATL/date/2024-10-26,False
+" Carlsbad, CA",https://www.wunderground.com/history/daily/KCRQ/date/2024-10-26,False
+" Hamilton, ON",https://www.wunderground.com/history/daily/CYHM/date/2024-10-26,False
+" Farmington, PA",https://www.wunderground.com/history/daily/KMGW/date/2024-10-26,False
+" Charlotte, NC",https://www.wunderground.com/history/daily/KCLT/date/2024-10-26,False
+" Norton, MA",https://www.wunderground.com/history/daily/KPVD/date/2024-10-26,False
+" Edison, NJ",https://www.wunderground.com/history/daily/KEWR/date/2024-10-26,False
+" Palm Beach Gardens, FL",https://www.wunderground.com/history/daily/KPBI/date/2024-10-26,False
+" Oakville, ON",https://www.wunderground.com/history/daily/CYYZ/date/2024-10-26,False
+ Kilkenny,https://www.wunderground.com/history/daily/EIWF/date/2024-10-26,False
+" Avondale, LA",https://www.wunderground.com/history/daily/KMSY/date/2024-10-26,False
+" Houston, TX",https://www.wunderground.com/history/daily/KHOU/date/2024-10-26,False
+" Bethesda, MD",https://www.wunderground.com/history/daily/KDCA/date/2024-10-26,False
+" Old Westbury, NY",https://www.wunderground.com/history/daily/KJFK/date/2024-10-26,False
+" St. Andrews, Scotland",https://www.wunderground.com/history/daily/EGPN/date/2024-10-26,False
+" Springfield, NJ",https://www.wunderground.com/history/daily/KEWR/date/2024-10-26,False
+" Vancouver, BC",https://www.wunderground.com/history/daily/CYVR/date/2024-10-26,False
+" San Francisco, CA",https://www.wunderground.com/history/daily/KSFO/date/2024-10-26,False
+ Sevilla,https://www.wunderground.com/history/daily/LEMD/date/2024-10-26,False
+" Mamaroneck, NY",https://www.wunderground.com/history/daily/KHPN/date/2024-10-26,False
+" Medinah, IL",https://www.wunderground.com/history/daily/KCLE/date/2024-10-26,False
+" Verona, NY",https://www.wunderground.com/history/daily/KRME/date/2024-10-26,False
+ Kildare,https://www.wunderground.com/history/daily/EIDW/date/2024-10-26,False
+" Hertfordshire, England",https://www.wunderground.com/history/daily/KLIT/date/2024-10-26,False
+ Hoylake,https://www.wunderground.com/history,False
+" Oakmont, PA",https://www.wunderground.com/history/daily/KPIT/date/2024-10-26,False
+" Tulsa, OK",https://www.wunderground.com/history/daily/KTUL/date/2024-10-26,False
+ Markham,https://www.wunderground.com/history/daily/CYKZ/date/2024-10-26,False
+" Marana, AZ",https://www.wunderground.com/history/daily/KTUS/date/2024-10-26,False
+" Quintana Roo, Mexico",https://www.wunderground.com/history/daily/MMMD/date/2024-10-26,False
+" Valdosta, GA",https://www.wunderground.com/history/daily/KVLD/date/2024-10-26,False
+" Kailua Kona, HI",https://www.wunderground.com/history/daily/PHKO/date/2024-10-26,False
+" Panama City, Panama",https://www.wunderground.com/history/daily/MPMG/date/2024-10-26,False
+" Kahuku, HI",https://www.wunderground.com/history/daily/PHNL/date/2024-10-26,False
+" Boca Raton, FL",https://www.wunderground.com/history/daily/KFLL/date/2024-10-26,False
+" Adelaide, Australia",https://www.wunderground.com/history/daily/YPAD/date/2024-10-26,False
+TPC of Tampa Bay,https://www.wunderground.com/history/daily/KTPA/date/2024-10-26,False
+" Clearwater, FL",https://www.wunderground.com/history/daily/KPIE/date/2024-10-26,False
+Quail West Golf Club,,True
+" Newport Beach, CA",https://www.wunderground.com/history/daily/KSNA/date/2024-10-26,False
+" Valencia, CA",https://www.wunderground.com/history/daily/KBUR/date/2024-10-26,False
+" Livermore, CA",https://www.wunderground.com/history/daily/KSJC/date/2024-10-26,False
+" Athens, GA",https://www.wunderground.com/history/daily/KATL/date/2024-10-26,False
+" Savannah, GA",https://www.wunderground.com/history/daily/KSAV/date/2024-10-26,False
+The Dominion Club,,True
+Hardscrabble Country Club,,True
+The Hills CC,,True
+" Chattanooga, TN",https://www.wunderground.com/history/daily/KCHA/date/2024-10-26,False
+" Mobile, AL",https://www.wunderground.com/history/daily/KMOB/date/2024-10-26,False
+The Country Club at Woodmore,,True
+" Kiawah Island, SC",https://www.wunderground.com/history,False
+" Glenview, IL",https://www.wunderground.com/history/daily/KORD/date/2024-10-26,False
+Raven Golf Club at Sandestin,,True
+" Raleigh, NC",https://www.wunderground.com/history/daily/KRDU/date/2024-10-26,False
+Glen Oaks CC,,True
+" Knoxville, TN",https://www.wunderground.com/history/daily/KTYS/date/2024-10-26,False
+" Concord, MA",https://www.wunderground.com/history/daily/KBOS/date/2024-10-26,False
+" Findley Lake, NY",https://www.wunderground.com/history/daily/KERI/date/2024-10-26,False
+Red Course at Eisenhower Park,,True
+StoneWater GC,,True
+" Kohler, WI",https://www.wunderground.com/history/daily/KATW/date/2024-10-26,False
+Somerby Golf Club,,True
+" Springfield, MO",https://www.wunderground.com/history/daily/KSGF/date/2024-10-26,False
+" Omaha, NE",https://www.wunderground.com/history/daily/KOMA/date/2024-10-26,False
+" Gullane, Scotland",https://www.wunderground.com/history/daily/EGPH/date/2024-10-26,False
+" Wichita, KS",https://www.wunderground.com/history/daily/KICT/date/2024-10-26,False
+" Blaine, MN",https://www.wunderground.com/history/daily/KMSP/date/2024-10-26,False
+Glenmaura National GC,,True
+Irondequoit Country Club,,True
+Crosswater Club at Sunriver Resort,,True
+Pete Dye Golf Club,,True
+Willow Creek Country Club,,True
+Shadow Hills Country Club,,True
+" Conover, NC",https://www.wunderground.com/history/daily/KCLT/date/2024-10-26,False
+" Boise, ID",https://www.wunderground.com/history/daily/KBOI/date/2024-10-26,False
+" Cary, NC",https://www.wunderground.com/history/daily/KRDU/date/2024-10-26,False
+Empire Lakes Golf Course,,True
+Baltimore Country Club/Five Farms,,True
+Midland CC,,True
+Augusta Pines GC,,True
+Miccosukee G&CC,,True
+Sonoma Golf Club,,True
+Barona Creek Golf Club,,True
+" Columbus, OH",https://www.wunderground.com/history/daily/KCMH/date/2024-10-26,False
+" Port St. Lucie, FL",https://www.wunderground.com/history/daily/KFPR/date/2024-10-26,False
+" Southport, England",https://www.wunderground.com/history/daily/EGNH/date/2024-10-26,False
+" Paramus, NJ",https://www.wunderground.com/history/daily/KTEB/date/2024-10-26,False
+" La Jolla, CA",https://www.wunderground.com/history/daily/KSAN/date/2024-10-26,False
+" St. Louis, MO",https://www.wunderground.com/history/daily/KSTL/date/2024-10-26,False
+" Bloomfield Township, MI",https://www.wunderground.com/history/daily/KPTK/date/2024-10-26,False
+" Las Vegas, NV",https://www.wunderground.com/history/daily/KVGT/date/2024-10-26,False
+" Louisville, KY",https://www.wunderground.com/history/daily/KSDF/date/2024-10-26,False
+" Palm Coast, FL",https://www.wunderground.com/history/daily/KDAB/date/2024-10-26,False
+" Rio Grande, Puerto Rico",https://www.wunderground.com/history/daily/TJSJ/date/2024-10-26,False
+" Incheon, South Korea",https://www.wunderground.com/history/daily/RKSS/date/2024-10-26,False
+" Santo Domingo, Dominican Republic",https://www.wunderground.com/history/daily/MDJB/date/2024-10-26,False
+" Rochester, NY",https://www.wunderground.com/history/daily/KROC/date/2024-10-26,False
+" Troon, Scotland",https://www.wunderground.com/history/daily/EGPK/date/2024-10-26,False
+" Colorado Springs, CO",https://www.wunderground.com/history/daily/KCOS/date/2024-10-26,False
+" Snoqualmie, WA",https://www.wunderground.com/history/daily/KSEA/date/2024-10-26,False
+Tres Marias Residential Golf Club,,True
+" Moscow, PA",https://www.wunderground.com/history/daily/KAVP/date/2024-10-26,False
+" McKinney, TX",https://www.wunderground.com/history/daily/KDAL/date/2024-10-26,False
+" Fingal, Australia",https://www.wunderground.com/history/daily/YMMB/date/2024-10-26,False
+" Irving, TX",https://www.wunderground.com/history/daily/KDAL/date/2024-10-26,False
+" Jersey City, NJ",https://www.wunderground.com/history/daily/KEWR/date/2024-10-26,False
+" Bethpage, NY",https://www.wunderground.com/history/daily/KJFK/date/2024-10-26,False
+" Turnberry, Ayrshire",https://www.wunderground.com/history/daily/KFOD/date/2024-10-26,False
+" Chaska, MN",https://www.wunderground.com/history/daily/KMSP/date/2024-10-26,False
+TPC Treviso Bay,https://www.wunderground.com/history/daily/WMKP/date/2024-10-26,False
+" Beachwood, OH",https://www.wunderground.com/history/daily/KCLE/date/2024-10-26,False
+" Berkshire, England",https://www.wunderground.com/history/daily/KLIT/date/2024-10-26,False
+" Carmel, IN",https://www.wunderground.com/history/daily/KIND/date/2024-10-26,False
+" The Woodlands, TX",https://www.wunderground.com/history/daily/KIAH/date/2024-10-26,False
+The Hills Golf Club,,True
+" Valencia, Spain",https://www.wunderground.com/history/daily/LEVC/date/2024-10-26,False
+" Overland Park, KS",https://www.wunderground.com/history/daily/KMCI/date/2024-10-26,False
+" Hayward, CA",https://www.wunderground.com/history/daily/KOAK/date/2024-10-26,False
+Soboba Springs,https://www.wunderground.com/history/daily/FAOR/date/2024-10-26,False
+" Charleston, SC",https://www.wunderground.com/history,False
+Vines Resort GC,,True
+New Kuta GC,,True
+Porto Santo Golfe,,True
+"Oitavos Golfe, Quinta da Marinha",,True
+Beijing CBD International GC,,True
+Pinx GC,,True
+PGA Golf de Catalunya,,True
+Co Louth GC,,True
+Royal Park I Roveri,https://www.wunderground.com/history/daily/KHOT/date/2024-10-26,False
+Wentworth GC,,True
+Heritage Course,,True
+" Broussard, LA",https://www.wunderground.com/history/daily/KLFT/date/2024-10-26,False
+Aa St Omer,https://www.wunderground.com/history/daily/LFAC/date/2024-10-26,False
+Eichenreid,https://www.wunderground.com/history,False
+" Paris, France",https://www.wunderground.com/history/daily/LFPO/date/2024-10-26,False
+Loch Lomond,https://www.wunderground.com/history/daily/CYQY/date/2024-10-26,False
+Barseback G & CC,,True
+Prosper Golf Resort,,True
+Kennemer G & CC,,True
+" Perth, Scotland",https://www.wunderground.com/history/daily/EGPN/date/2024-10-26,False
+Sierre,https://www.wunderground.com/history/daily/LSGS/date/2024-10-26,False
+Gut Larchenhof GC,,True
+Fontana GC,,True
+Oceanico Victoria Clube de Golfe,,True
+Club de Campo del Mediterraneo,,True
+Sentosa Golf Club,,True
+" Shanghai, China",https://www.wunderground.com/history/daily/ZSSS/date/2024-10-26,False
+Hong Kong GC,,True
+Earth Course,,True
+Ocean Course,,True
+Leopard Creek GC,,True
+Pearl Valley,https://www.wunderground.com/history/daily/KJFK/date/2024-10-26,False
+East London Golf Club,,True
+Kingston Heath Golf Club,,True
+The Quarry Golf Course,,True
+Colorado Golf Club,,True
+" Carnoustie, Scotland",https://www.wunderground.com/history/daily/EGPN/date/2024-10-26,False
+" Sammamish, WA",https://www.wunderground.com/history/daily/KSEA/date/2024-10-26,False
+Abu Dhabi CC,,True
+Doha GC,,True
+Emirates Golf Club (Majlis Course),,True
+" Saint Simons Island, GA",https://www.wunderground.com/history/daily/KBQK/date/2024-10-26,False
+Parador de Malaga,https://www.wunderground.com/history/daily/LEMG/date/2024-10-26,False
+ Kuala Lumpur,https://www.wunderground.com/history/daily/WMSA/date/2024-10-26,False
+DLF Golf and Country Club,,True
+Suzhou Taihu International Golf club,,True
+" San Martin, CA",https://www.wunderground.com/history/daily/KSJC/date/2024-10-26,False
+ Southampton,https://www.wunderground.com/history/daily/EGHI/date/2024-10-26,False
+Diamond Country Club,,True
+Bro Hoff Slott GC,,True
+Killarney Golf & Fishing Club,,True
+Hilversumsche,https://www.wunderground.com/history,False
+Club de Golf Valderrama,,True
+Jumeirah Golf Estates,,True
+Blue Course,,True
+" Etobicoke, Ontario",https://www.wunderground.com/history/daily/CYYZ/date/2024-10-26,False
+" Newtown Square, PA",https://www.wunderground.com/history/daily/KPHL/date/2024-10-26,False
+" White Sulphur Springs, WV",https://www.wunderground.com/history/daily/KLWB/date/2024-10-26,False
+" Bogota, Colombia",https://www.wunderground.com/history/daily/SKBO/date/2024-10-26,False
+" College Park, MD",https://www.wunderground.com/history/daily/KDCA/date/2024-10-26,False
+" Canonsburg, PA",https://www.wunderground.com/history/daily/KPIT/date/2024-10-26,False
+Dye's Valley Course,,True
+" Newport, Wales",https://www.wunderground.com/history/daily/EGGD/date/2024-10-26,False
+" Blainville, PQ",https://www.wunderground.com/history/daily/SAEZ/date/2024-10-26,False
+" Johns Creek, GA",https://www.wunderground.com/history/daily/KATL/date/2024-10-26,False
+Durban CC,,True
+Royal Golf Club,,True
+Emirates GC,,True
+" Thousand Oaks, CA",https://www.wunderground.com/history/daily/KBUR/date/2024-10-26,False
+Donnafugata Golf Resort & SPA,,True
+" Sea Island, GA",https://www.wunderground.com/history/daily/KBQK/date/2024-10-26,False
+Luxehills International Country ,https://www.wunderground.com/history/daily/KMDW/date/2024-10-26,False
+Blackstone Golf Club,,True
+Real Club de Golf El Prat,,True
+Pula GC,,True
+Castle Stuart Golf Links,,True
+El Encin Golf Hotel,,True
+Mission Hills Resort,https://www.wunderground.com/history,False
+" Guanajuato, Mexico",https://www.wunderground.com/history/daily/MMLO/date/2024-10-26,False
+" Biloxi, MS",https://www.wunderground.com/history/daily/KGPT/date/2024-10-26,False
+" Birmingham, AL",https://www.wunderground.com/history/daily/KBHM/date/2024-10-26,False
+" Toledo, OH",https://www.wunderground.com/history/daily/KTOL/date/2024-10-26,False
+" Surrey, England",https://www.wunderground.com/history/daily/CYVR/date/2024-10-26,False
+" Kent, England",https://www.wunderground.com/history/daily/KSEA/date/2024-10-26,False
+Serengeti Golf Club,,True
+" Black Rock, Australia",https://www.wunderground.com/history/daily/YPAG/date/2024-10-26,False
+" Lancashire, England",https://www.wunderground.com/history/daily/KLIT/date/2024-10-26,False
+The Links,https://www.wunderground.com/history/daily/SBML/date/2024-10-26,False
+Aloha GC,,True
+Golf du Palais,,True
+Verdura Golf & Spa Resort,,True
+Binhai Lake GC,,True
+Royal Portrush GC,,True
+Lake Karrinyup CC,,True
+Lake Malaren Golf Club,,True
+Mission Hills GC,,True
+" Santiago, Chile",https://www.wunderground.com/history/daily/SCEL/date/2024-10-26,False
+" Newburgh, IN",https://www.wunderground.com/history/daily/KEVV/date/2024-10-26,False
+Turnberry,https://www.wunderground.com/history,False
+" Naples, FL",https://www.wunderground.com/history/daily/KRSW/date/2024-10-26,False
+" Benton Harbor, MI",https://www.wunderground.com/history/daily/KSBN/date/2024-10-26,False
+Indianwood Golf & Country Club,,True
+" Kapolei, HI",https://www.wunderground.com/history/daily/PHNL/date/2024-10-26,False
+"Julie, PQ",https://www.wunderground.com/history/daily/SAEZ/date/2024-10-26,False
+" Pittsburgh, PA",https://www.wunderground.com/history/daily/KPIT/date/2024-10-26,False
+Royal Durban Golf Club,,True
+Copperleaf Golf & Country Estate,,True
+Jaypee Greens GC,,True
+Parador de El Saler,https://www.wunderground.com/history/daily/LFMP/date/2024-10-26,False
+Tseleevo Golf & Polo Club,,True
+Celtic Manor G & CC,,True
+Golf Club Torino La Mandria,,True
+The Montgomerie Maxx Royal,https://www.wunderground.com/history/daily/KDET/date/2024-10-26,False
+Carton House GC,,True
+" Ardmore, PA",https://www.wunderground.com/history/daily/KPHL/date/2024-10-26,False
+" Lake Forest, IL",https://www.wunderground.com/history/daily/KORD/date/2024-10-26,False
+" Sao Paulo, Brazil",https://www.wunderground.com/history/daily/SBSP/date/2024-10-26,False
+" Macomb, MI",https://www.wunderground.com/history/daily/KDET/date/2024-10-26,False
+" Des Moines, IA",https://www.wunderground.com/history/daily/KDSM/date/2024-10-26,False
+North Shore Country Club,,True
+" Calgary, AB",https://www.wunderground.com/history/daily/CYYC/date/2024-10-26,False
+Royal Canberra Golf Club,,True
+" Chon Buri, Thailand",https://www.wunderground.com/history/daily/VTUQ/date/2024-10-26,False
+" Singapore, Singapore",https://www.wunderground.com/history/daily/WSSS/date/2024-10-26,False
+" Phoenix, AZ",https://www.wunderground.com/history/daily/KPHX/date/2024-10-26,False
+" Rancho Mirage, CA",https://www.wunderground.com/history/daily/KPSP/date/2024-10-26,False
+" Williamsburg, VA",https://www.wunderground.com/history/daily/KPHF/date/2024-10-26,False
+"RTJ Golf Trail, Magnolia Grove's The Crossings",,True
+" Galloway, NJ",https://www.wunderground.com/history/daily/KACY/date/2024-10-26,False
+Locust Hill Country Club,,True
+" Rogers, AR",https://www.wunderground.com/history/daily/KXNA/date/2024-10-26,False
+Sebonack Golf Club,,True
+Grey Silo Golf Course,,True
+" Sylvania, OH",https://www.wunderground.com/history/daily/KTOL/date/2024-10-26,False
+Royal Mayfair Golf & Country Club,,True
+" Portland, OR",https://www.wunderground.com/history/daily/KPDX/date/2024-10-26,False
+"Bains, France",https://www.wunderground.com/history/daily/LFHP/date/2024-10-26,False
+" Beijing, China",https://www.wunderground.com/history/daily/ZBNY/date/2024-10-26,False
+" Kuala Lumpur, Malaysia",https://www.wunderground.com/history/daily/WMSA/date/2024-10-26,False
+" University Place, WA",https://www.wunderground.com/history/daily/KSEA/date/2024-10-26,False
+" Pinehurst, NC",https://www.wunderground.com/history/daily/KFAY/date/2024-10-26,False
+" Cherry Hills Village, CO",https://www.wunderground.com/history/daily/KDEN/date/2024-10-26,False
+Mount Edgecombe CC,,True
+Glendower GC,,True
+Gary Player CC,,True
+Shenzen GC,,True
+Santo da Serra,https://www.wunderground.com/history/daily/SDSC/date/2024-10-26,False
+PGA Sweden National,https://www.wunderground.com/history/daily/KSAN/date/2024-10-26,False
+Fota Island GC,,True
+Royal Aberdeen GC,,True
+Albatross Golf Resort,,True
+Cicolo GC,,True
+" Edmond, OK",https://www.wunderground.com/history/daily/KOKC/date/2024-10-26,False
+" Bridgend, Wales",https://www.wunderground.com/history/daily/EGFF/date/2024-10-26,False
+" Levis, PQ",https://www.wunderground.com/history/daily/SAEZ/date/2024-10-26,False
+" Paradise Island, Bahamas",https://www.wunderground.com/history/daily/CYYT/date/2024-10-26,False
+" Daly City, CA",https://www.wunderground.com/history/daily/KSFO/date/2024-10-26,False
+" Baltimore, MD",https://www.wunderground.com/history/daily/KBWI/date/2024-10-26,False
+" Belmont, MI",https://www.wunderground.com/history/daily/KBOS/date/2024-10-26,False
+Monroe Golf Club,,True
+London Hunt and Country Club,,True
+" Prattville, AL",https://www.wunderground.com/history/daily/KMGM/date/2024-10-26,False
+Lakewood Country Club,,True
+" Halifax, NS",https://www.wunderground.com/history/daily/CYHZ/date/2024-10-26,False
+" Davidson, NC",https://www.wunderground.com/history/daily/KCLT/date/2024-10-26,False
+La Reserva de Sotogrande Club de Golf,,True
+Himmerland Golf & Spa Resort,,True
+" Hainan Island, China",https://www.wunderground.com/history/daily/ZLXN/date/2024-10-26,False
+" Taipei, Taiwan",https://www.wunderground.com/history/daily/RCSS/date/2024-10-26,False
+" Mexico City, Mexico",https://www.wunderground.com/history/daily/MMMX/date/2024-10-26,False
+" Jackson, MS",https://www.wunderground.com/history/daily/KJAN/date/2024-10-26,False
+" Napa, CA",https://www.wunderground.com/history/daily/KSTS/date/2024-10-26,False
+" Gainesville, VA",https://www.wunderground.com/history/daily/KIAD/date/2024-10-26,False
+" Auburn, AL",https://www.wunderground.com/history/daily/KCSG/date/2024-10-26,False
+" Windermere, FL",https://www.wunderground.com/history/daily/KMCO/date/2024-10-26,False
+Black Mountain Golf Club,,True
+Delhi GC,,True
+Pretoria CC,,True
+Genzon GC,,True
+Tomson Shanghai Pudong GC,,True
+Heritage GC,,True
+Royal County Down GC,,True
+Gullane GC,,True
+Skolkovo Golf Club,,True
+Golf Club Milano,,True
+Golf Resort Bad Griesbach,,True
+Woburn GC,,True
+" Boston, MA",https://www.wunderground.com/history/daily/KBOS/date/2024-10-26,False
+" Wilmington, NC",https://www.wunderground.com/history/daily/KILM/date/2024-10-26,False
+The 27 Club,,True
+" Cambridge, ON",https://www.wunderground.com/history/daily/CYKF/date/2024-10-26,False
+" Lancaster, PA",https://www.wunderground.com/history/daily/KMDT/date/2024-10-26,False
+The Vancouver Golf Club,,True
+Rot Golf Club,,True
+" Ocala, FL",https://www.wunderground.com/history/daily/KGNV/date/2024-10-26,False
+Kintetsu Kashikojima Country Club,,True
+" Salt Lake City, UT",https://www.wunderground.com/history/daily/KSLC/date/2024-10-26,False
+" Austin, TX",https://www.wunderground.com/history/daily/KAUS/date/2024-10-26,False
+RACV Royal Pines Resort,https://www.wunderground.com/history/daily/KHOT/date/2024-10-26,False
+Royal Selangor GC,,True
+" Philadelphia, PA",https://www.wunderground.com/history/daily/KPHL/date/2024-10-26,False
+" Victoria, BC",https://www.wunderground.com/history/daily/CYWH/date/2024-10-26,False
+" Richmond, VA",https://www.wunderground.com/history/daily/KRIC/date/2024-10-26,False
+" Erin, WI",https://www.wunderground.com/history/daily/OICS/date/2024-10-26,False
+" Gurnee, IL",https://www.wunderground.com/history/daily/KORD/date/2024-10-26,False
+" Jeju Island, South Korea",https://www.wunderground.com/history/daily/RKPC/date/2024-10-26,False
+" Priddis, AB",https://www.wunderground.com/history/daily/CYYC/date/2024-10-26,False
+" Omitama, Japan",https://www.wunderground.com/history/daily/RJAA/date/2024-10-26,False
+" New Providence, Bahamas",https://www.wunderground.com/history/daily/MYNN/date/2024-10-26,False
+" Cartagena, Colombia",https://www.wunderground.com/history/daily/SKCG/date/2024-10-26,False
+" Punta Cana, Dominican Republic",https://www.wunderground.com/history/daily/MDPC/date/2024-10-26,False
+" Mundelein, IL",https://www.wunderground.com/history/daily/KORD/date/2024-10-26,False
+" Nashville, TN",https://www.wunderground.com/history/daily/KBNA/date/2024-10-26,False
+" Springfield, IL",https://www.wunderground.com/history/daily/KSPI/date/2024-10-26,False
+Valderrama GC,,True
+Topwin Golf & CC,,True
+Four Seasons GC,,True
+Golf Club Gut Laerchenhof,,True
+The Dutch,https://www.wunderground.com/history/daily/CYQY/date/2024-10-26,False
+Regnum Carya Golf & Spa Resort,,True
+Phoenix Gold Golf Club,,True
+Olympic Golf Course,,True
+Natadola Bay GC,,True
+Saujana G & CC,,True
+" Ann Arbor, MI",https://www.wunderground.com/history/daily/KDTW/date/2024-10-26,False
+" Olympia Fields, IL",https://www.wunderground.com/history/daily/KGYY/date/2024-10-26,False
+" Green Bay, WI",https://www.wunderground.com/history/daily/KGRB/date/2024-10-26,False
+" Bedminster, NJ",https://www.wunderground.com/history/daily/KEWR/date/2024-10-26,False
+" Ayrshire, Scotland",https://www.wunderground.com/history/daily/KPGV/date/2024-10-26,False
+" Ottawa, ON",https://www.wunderground.com/history/daily/CYOW/date/2024-10-26,False
+" Indianapolis, IN",https://www.wunderground.com/history/daily/KIND/date/2024-10-26,False
+" Auckland, New Zealand",https://www.wunderground.com/history/daily/NZAA/date/2024-10-26,False
+" Madison, WI",https://www.wunderground.com/history/daily/KMSN/date/2024-10-26,False
+" Peabody, MA",https://www.wunderground.com/history/daily/KBOS/date/2024-10-26,False
+" Atlantic Beach, FL",https://www.wunderground.com/history/daily/KJAX/date/2024-10-26,False
+" Washington, DC",https://www.wunderground.com/history/daily/KDCA/date/2024-10-26,False
+" Chiba, Japan",https://www.wunderground.com/history/daily/RJAA/date/2024-10-26,False
+" Great Exuma, Bahamas",https://www.wunderground.com/history/daily/KRDU/date/2024-10-26,False
+" Great Abaco, Bahamas",https://www.wunderground.com/history/daily/MYNN/date/2024-10-26,False
+" Farmington, UT",https://www.wunderground.com/history/daily/KSLC/date/2024-10-26,False
+Morgado G&CC,,True
+Portstewart GC,,True
+Green Eagle Golf Courses,,True
+Victoria Clube de Golfe,,True
+Close House GC,,True
+" West Des Moines, IA",https://www.wunderground.com/history/daily/KDSM/date/2024-10-26,False
+" Dallas, TX",https://www.wunderground.com/history/daily/KDAL/date/2024-10-26,False
+" Southampton, NY",https://www.wunderground.com/history/daily/KHVN/date/2024-10-26,False
+" Southampton Parish, Bermuda",https://www.wunderground.com/history/daily/TXKF/date/2024-10-26,False
+" Detroit, MI",https://www.wunderground.com/history/daily/KDET/date/2024-10-26,False
+" Truckee, CA",https://www.wunderground.com/history/daily/KRNO/date/2024-10-26,False
+" Bradenton, FL",https://www.wunderground.com/history/daily/KSRQ/date/2024-10-26,False
+" Nicholasville, KY",https://www.wunderground.com/history/daily/KLEX/date/2024-10-26,False
+" North Berwick, Scotland",https://www.wunderground.com/history/daily/EGPH/date/2024-10-26,False
+" Brookline, MA",https://www.wunderground.com/history/daily/KBOS/date/2024-10-26,False
+" Toronto, ON",https://www.wunderground.com/history/daily/CYTZ/date/2024-10-26,False
+" Nuevo Vallarta, Mexico",https://www.wunderground.com/history/daily/KCOU/date/2024-10-26,False
+" Wilmington, DE",https://www.wunderground.com/history/daily/YPAG/date/2024-10-26,False
+" Ridgeland, SC",https://www.wunderground.com/history/daily/KHXD/date/2024-10-26,False
+" Los Angeles, CA",https://www.wunderground.com/history/daily/KLAX/date/2024-10-26,False
+" Cabo San Lucas, Mexico",https://www.wunderground.com/history/daily/MMSD/date/2024-10-26,False
+" Myrtle Beach, SC",https://www.wunderground.com/history/daily/KMYR/date/2024-10-26,False
