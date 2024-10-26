@@ -27,6 +27,7 @@ This project allowed me to practice key data analytical skills to scrape raw dat
 <br>
 
 # Packages
+* Had to create environment for ARM64 architecture for Selenium to be performant
 1. Python 3.7
 2. Pandas
 3. BeautifulSoup
