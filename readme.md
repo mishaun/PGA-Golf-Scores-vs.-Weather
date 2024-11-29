@@ -25,6 +25,8 @@ This project allowed me to practice key data analytical skills to scrape raw dat
 3. Missing data upon scraping for certain tournaments and elements.
 4. Weather data required Selenium Web Crawler and proper packages for ARM architecture to be performant. 
 5. Handling exceptions for web crawlers for errors like page timeouts, element interception, stale elements, etc.
+    Constant ensurance that chromedriver was matching chrome version so latest versions are used for performance
+    Observed that after chrome update the chromedriver was not bheaving like it was in a prior week of development. 
 6. Preparing weather data so best information is used by considering things like time of tournament play weather versus weather outside tournament time
 
 <br>
@@ -42,4 +44,4 @@ This project allowed me to practice key data analytical skills to scrape raw dat
     https://stackoverflow.com/questions/65415996/how-to-specify-the-architecture-or-platform-for-a-new-conda-environment-apple\
 2. Root cause for slow Selenium
     https://stackoverflow.com/questions/76957026/chromedriver-starts-chrome-as-x86-64-translated-on-m1-very-slow-performance
-    
+
