@@ -2,46 +2,132 @@
 
 <br>
 
+# Summary & Key Insights
+- Scraped PGA tournament scores from 2001 to 2024 and retrieved weather data to understand how weather impacts scores.
+- Observed that winds over 20 mph significantly impacted scoring averages.
+- Confirmed that wind is the biggest factor.
+
 # Overview
-As a golf enthusiast, the desire to see historical golf tournament results at my fingertips was essential for answering questions that not even ChatGPT can generate for me.  I wanted to take a deeper dive on how weather impacts tournament results, which courses are difficult, player details, and much more.  
-
-This project allowed me to practice key data analytical skills to scrape raw data, clean, and finally build a useful dashboard!
-
-<br>
+As a golf enthusiast, I wanted to see historical golf tournament results to answer questions about weather impacts, course difficulty, player details, and more. This project allowed me to apply data analytical skills to scrape, clean, and build a useful dashboard.
 
 # Goals of Project
-1. Compile golf tournament historical records in one location to answer questions like:
-    * Who has won the most in the past 20+ years per starts 
-    * What courses proved to be the most difficult
-    * How does weather potentially impact scores for a given week based on wind and rain.  
-        * How does it impact scores if it rains before the tournament but not afterwards? 
-        * Are there courses where we can see the differences between years it rained versus not?
+1. Compile golf tournament historical records to answer questions like:
+    * Who has won the most in the past 20+ years per starts?
+    * What courses are the most difficult?
+    * How does weather impact scores based on wind and rain?
+        * Are there courses where we can see differences between years it rained versus not?
+        * What are scoring averages in different weather conditions?
 
-<br>
+
 
 # Challenges
-1. Golf data API was an expensive option for project and had incomplete data for tournament and course details.
-2. Scraping ESPN was difficult due to the tournament ID's changing season by season after 2018.  Manual inspection was required to mark tournament ID ranges.
-3. Missing data upon scraping for certain tournaments and elements.
-4. Weather data required Selenium Web Crawler and proper packages for ARM architecture to be performant. 
-5. Handling exceptions for web crawlers for errors like page timeouts, element interception, stale elements, etc.
-    Constant ensurance that chromedriver was matching chrome version so latest versions are used for performance
-    Observed that after chrome update the chromedriver was not bheaving like it was in a prior week of development. 
-6. Preparing weather data so best information is used by considering things like time of tournament play weather versus weather outside tournament time
+1. Golf data API was expensive and had incomplete data.
+2. Scraping ESPN was difficult due to changing tournament IDs after 2018.
+    * Manual inspection was required to mark tournament ID ranges.
+3. Missing data for certain tournaments and fields.
+4. Weather data required Selenium Web Crawler and proper packages for ARM architecture.
+5. Handling exceptions for web crawlers (timeouts, element interception, stale elements, etc.).
+    * Ensuring chromedriver matched chrome version for performance.
+    * Observed chromedriver issues after chrome updates.
+6. Preparing weather data to consider tournament play weather versus outside tournament time.
 
-<br>
+# Data Model
+
+![Data Relationships](images/data_relationships.png)
+
+* A unique tournament will have multiple rounds with many players. For each tournament and round, there will be hourly weather data available.
+
+1. Tournament Info
+    * Contains meta data of tournament.
+2. Dates Event and Rounds
+    * Fact table holding event ID, round number, and date.
+3. Player Scores by Round
+    * Holds each player's score to par and overall score for a given tournament and round.
+4. Weather Data
+    * Hourly weather data for a tournament round.
+
+# Script Overviews
+1. Get Golf Data Web Scraper
+    * Focused on attaining tournament meta data (event date, golf course, tournament name) and player scores.
+    * Batches were run based on event ID ranges to scrape ESPN details using Beautiful Soup.
+
+2. Transform Golf Data
+    * Cleaned the data of scores and tournament meta data.
+    * Key steps:
+        1. Removed events with less than 5 players.
+        2. Added field for Par using players' score to par amount versus the total.
+        
+        ![Fill Rates on Par Field](images/Data_cleaning_for_Par_field_for_readme.png)
+        
+        3. Performed text cleaning in tournament meta data to get fields like city, yards, par, purse, start/end dates, etc.
+
+3. Get Weather Data - City URL's
+    * Leveraged tournament meta data to get base URLs for each tournament city from Weather Underground.
+    * Selenium and a web crawler were used to type into JavaScript form fields.
+        * Required several try and excepts to resolve interruptions, timeouts, and other bugs.
+
+4. Get Weather Data - Hourly Weather
+    * Created specific URLs to get city weather on a desired date.
+    * Generated a calendar of dates using the tournament start and end date to create a date for each round.
+        * Achieved by creating an array of dates between start and end, then exploding them to get each date at the row level.
+
+        ```python
+        def create_array_of_dates(start_date, end_date):
+            """
+            Creates an array of dates between start_date and end_date.
+            """
+            try:
+                start_date = dt.datetime.strptime(start_date, "%Y-%m-%d")
+                end_date = dt.datetime.strptime(end_date, "%Y-%m-%d")
+                end_date = end_date + dt.timedelta(days=1)
+
+                date_generated = [start_date + dt.timedelta(days=x) for x in range(0, (end_date-start_date).days)]
+                date_generated = [date.strftime("%Y-%m-%d") for date in date_generated]
+                return date_generated
+            except:
+                return None
+
+        df_tournament_details['round_dates'] = df_tournament_details.apply(
+            lambda x: create_array_of_dates(x['start_date'], x['end_date']), axis=1
+        )
+
+        # Explode the dates to have one row per date
+        df_tournament_details = df_tournament_details.explode('round_dates')
+        ```
+    * Batches were created to troubleshoot erroneous requests and save intermediate data.
+    * Selenium used to request the page for each URL created using city and date to store hourly weather data.
+
+5. Transform Hourly Weather - Union and Geopy Distances
+    * Unioned the data from all batches.
+    * Used GeoPy to assess how close the available weaher data was to the actual tournament city.
+    * Dropped weather data where the two cities were more than 35 miles apart.
+
+6. Transform Hourly Weather - Clean Values in Valid Hourly
+    * Performed regex text cleaning to convert strings into numerical values for fields like precipitation, wind speed, and temperature.
+    * Added numerical hour to each timestamp.
+        * Added flag for realistic hours of the day players would be actively playing.
+
+7. Final Transformations - Store Final Data
+    * Made final changes to the gold layer for reporting.
+        * Required changes observed in Tableau were made in this final notebook.
+    * Loaded latest transformed data for weather, tournament meta data, and scores.
+    * Created unpivoted scores data table to create relationship for scores and weather data.
+    * Created composite keys using event_id and round number to relate round dates, round scores, and weather data.
+    * Identified major tournaments and created a flag using manual inspection and fuzzy matches.
+    * Added lat/long to city names to aid Tableau in geospatial mapping.
 
 # Packages
-* Had to create virtual environment for ARM64 architecture for Selenium to be performant
+* *Created virtual environment for ARM64 architecture for Selenium to be performant*
 1. Python 3.7
 2. Pandas
 3. BeautifulSoup
 4. Selenium
-
+5. Re
+6. Fuzzywuzzy
+7. GeoPy
 
 # Key Troubleshooting Articles
 1. How to create env for ARM architecture: 
-    https://stackoverflow.com/questions/65415996/how-to-specify-the-architecture-or-platform-for-a-new-conda-environment-apple\
-2. Root cause for slow Selenium
-    https://stackoverflow.com/questions/76957026/chromedriver-starts-chrome-as-x86-64-translated-on-m1-very-slow-performance
-
+    https://stackoverflow.com/questions/65415996/how-to-specify-the-architecture-or-platform-for-a-new-conda-environment-apple
+2. Root cause for slow Selenium:
+    https://stackoverflow.com/questions/76957026/chromedriver-starts-chrome-as-x86-64-translated-on-m1-very-slow-performance   
