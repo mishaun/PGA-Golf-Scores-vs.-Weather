@@ -1,4 +1,4 @@
-# PGA Tour Golf Data Project
+# PGA Tour Golf Data Project | Weather vs. Score
 
 <br>
 
@@ -7,17 +7,26 @@
 - Observed that winds over 20 mph significantly impacted scoring averages.
 - Confirmed that wind is the biggest factor.
 
+
 # Overview
-As a golf enthusiast, I wanted to see historical golf tournament results to answer questions about weather impacts, course difficulty, player details, and more. This project allowed me to apply data analytical skills to scrape, clean, and build a useful dashboard.
+As a golf enthusiast and player, I wanted to see historical golf tournament results to answer questions about weather impacts, course difficulty, player details, and more. This project allowed me to apply data analytical skills to scrape, clean, and build a useful dashboard.
 
 # Goals of Project
 1. Compile golf tournament historical records to answer questions like:
-    * Who has won the most in the past 20+ years per starts?
-    * What courses are the most difficult?
     * How does weather impact scores based on wind and rain?
         * Are there courses where we can see differences between years it rained versus not?
         * What are scoring averages in different weather conditions?
+    * What courses are the most difficult?
 
+# Dashboard Notes
+* EDA was performed and domain knowledge was implemented to remove outliar for data.  For example, wind speeds over 50 mph were excluded, round scores to par were limited in range from -15 to 15+. 
+
+# Dashboard Sample
+* Dashboard view to show how weather impacts score overall
+![Weather vs. Score](images/dasbhoard_weather_vs_score.png)
+
+* Dashboard view to allow a deeper dive on certain courses, tournaments, and round
+![Weather vs. Score - Tournament](images/dashboard_tournament_view.png)
 
 
 # Challenges
@@ -30,6 +39,7 @@ As a golf enthusiast, I wanted to see historical golf tournament results to answ
     * Ensuring chromedriver matched chrome version for performance.
     * Observed chromedriver issues after chrome updates.
 6. Preparing weather data to consider tournament play weather versus outside tournament time.
+7. Ensuring location matched from weather website was in close proximity of golf course location
 
 # Data Model
 
@@ -55,7 +65,7 @@ As a golf enthusiast, I wanted to see historical golf tournament results to answ
     * Cleaned the data of scores and tournament meta data.
     * Key steps:
         1. Removed events with less than 5 players.
-        2. Added field for Par using players' score to par amount versus the total.
+        2. Added secondary field for Par of the course using the players' score to par subtracted by their total. This helped improve the fill rate of the Par field.
         
         ![Fill Rates on Par Field](images/Data_cleaning_for_Par_field_for_readme.png)
         
@@ -125,6 +135,10 @@ As a golf enthusiast, I wanted to see historical golf tournament results to answ
 5. Re
 6. Fuzzywuzzy
 7. GeoPy
+
+# Future Roadmap and Enhancements
+- Add incremental refresh capability for 2025 tournaments and automate script weekly
+- Build a player level dashboard to compare top players performance in certain weather conditions
 
 # Key Troubleshooting Articles
 1. How to create env for ARM architecture: 
