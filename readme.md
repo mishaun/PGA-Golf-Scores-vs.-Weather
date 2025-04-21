@@ -43,7 +43,7 @@ As a golf enthusiast and player, I wanted to see historical golf tournament resu
 
 # Data Model
 
-![Data Relationships](images/data_relationships.png)
+![Data Relationships](images/Data_Relationships.png)
 
 * A unique tournament will have multiple rounds with many players. For each tournament and round, there will be hourly weather data available.
 
