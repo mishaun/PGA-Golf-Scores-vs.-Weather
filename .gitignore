@@ -1,4 +1,9 @@
 settings/
 .vscode/
 .ipynb_checkpoints/
-dashboards/
+
+dashboards/backups
+dashboards/buttons
+dashboards/logos
+dashboards/Data Extracts
+dashboards/**.~*
