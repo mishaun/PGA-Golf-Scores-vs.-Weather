@@ -18,10 +18,15 @@ As a golf enthusiast and player, I wanted to see historical golf tournament resu
         * What are scoring averages in different weather conditions?
     * What courses are the most difficult?
 
-# Dashboard Notes
+# Dashboard
+
+### Dashboard - Tableau Public
+- https://public.tableau.com/app/profile/mishaun.bhakta/viz/PGAScoresvs_Weather/TournamentsandCourses
+
+### Notes
 * EDA was performed and domain knowledge was implemented to remove outliar for data.  For example, wind speeds over 50 mph were excluded, round scores to par were limited in range from -15 to 15+. 
 
-# Dashboard Sample
+### Dashboard Sample
 * Dashboard view to show how weather impacts score overall
 ![Weather vs. Score](images/dasbhoard_weather_vs_score.png)
 
